@@ -2,9 +2,7 @@ import NextLink from 'next/link'
 export const ProjectOverview = () => {
   return (
     <div className='flex flex-col items-center justify-end'>
-      <h1 className='text-3xl font-semibold mb-4'>
-        Vercel <span className='text-zinc-500'>+</span> xAI Chatbot
-      </h1>
+      <h1 className='text-3xl font-semibold mb-4'>xAI Chatbot</h1>
       <p className='text-center'>
         This starter project uses <Link href='https://x.ai'>xAI</Link> with the{' '}
         <Link href='https://sdk.vercel.ai/docs'>AI SDK</Link> via the{' '}
