@@ -60,9 +60,6 @@ export const Header = () => {
             </div>
           </span>
         </div>
-        <div className='flex flex-row items-center gap-2 shrink-0'>
-          <DeployButton />
-        </div>
       </div>
     </div>
   )

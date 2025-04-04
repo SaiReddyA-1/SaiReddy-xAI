@@ -1,5 +1,5 @@
-"use client";
-import type { modelID } from "@/ai/providers";
+'use client'
+import type {modelID} from '@/ai/providers'
 import {
   Select,
   SelectContent,
@@ -7,27 +7,27 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "./ui/select";
+} from './ui/select'
 
 interface ModelPickerProps {
-  selectedModel: modelID;
-  setSelectedModel: (model: modelID) => void;
+  selectedModel: modelID
+  setSelectedModel: (model: modelID) => void
 }
 
 const MODELS: Record<modelID, string> = {
-  "grok-2-1212":
-    "Our flagship LLM that delivers unfiltered insights and raw intelligence",
-};
+  'grok-2-1212':
+    'Our flagship LLM that delivers unfiltered insights and raw intelligence',
+}
 
 export const ModelPicker = ({
   selectedModel,
   setSelectedModel,
 }: ModelPickerProps) => {
   return (
-    <div className="absolute bottom-2 left-2 flex flex-col gap-2">
+    <div className='absolute bottom-2 left-2 flex flex-col gap-2'>
       <Select value={selectedModel} onValueChange={setSelectedModel}>
-        <SelectTrigger className="">
-          <SelectValue placeholder="Select a model" />
+        <SelectTrigger className=''>
+          <SelectValue placeholder='Select a model' />
         </SelectTrigger>
         <SelectContent>
           <SelectGroup>
@@ -40,5 +40,5 @@ export const ModelPicker = ({
         </SelectContent>
       </Select>
     </div>
-  );
-};
+  )
+}
