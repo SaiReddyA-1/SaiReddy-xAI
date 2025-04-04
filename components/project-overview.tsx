@@ -1,12 +1,12 @@
 import NextLink from 'next/link'
+
 export const ProjectOverview = () => {
   return (
     <div className='flex flex-col items-center justify-end'>
       <h1 className='text-3xl font-semibold mb-4'>xAI Chatbot</h1>
       <p className='text-center'>
-        Chat With Grok xAI in a Simple User Interface
-        </Link>
-        .
+        Chat With <Link href='https://x.com/xai'>Grok xAI</Link> in a Simple
+        User Interface.
       </p>
     </div>
   )
