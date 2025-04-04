@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import {DeployButton} from './deploy-button'
 import {XAiIcon} from './icons'
 
 export const Header = () => {
