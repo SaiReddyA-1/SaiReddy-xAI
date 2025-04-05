@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.4.12",
     "@ai-sdk/react": "^1.1.23",
     "@ai-sdk/xai": "^1.1.16",
     "@opentelemetry/api-logs": "^0.200.0",
